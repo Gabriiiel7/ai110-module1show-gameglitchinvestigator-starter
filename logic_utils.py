@@ -21,8 +21,8 @@ def check_guess(guess, secret): #FOUND PROBLEM HERE
     if guess == secret:
         return "Win", "🎉 Correct!"
     if guess > secret:
-        return "Too High", "📈 Go HIGHER!"
-    return "Too Low", "📉 Go LOWER!"
+        return "Too Low", "📉 Go LOWER!"
+    return "Too High", "📈 Go HIGHER!"
 
 #FIXED USING CLAUDE 
 
